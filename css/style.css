@@ -66,3 +66,28 @@
     right: 5px;
     z-index: 9;
 }
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.imagesDivs {
+    margin: 5px;
+    padding: 5px;
+    background-color: darksalmon;
+}
+.positionImages {
+    position: relative;
+}
+.positionImage {
+    width: 100%;
+}
+.positionText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.backgroundImages {
+    background-image: url(../imgs/bird.jpeg);
+}
